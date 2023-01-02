@@ -15,7 +15,10 @@ for individualPetCount in perStudentPetCount {
     sum = sum + individualPetCount
 }
 
-print(sum)
+print()
+
+
+
 
 
 var average = sum / numOfStudents
