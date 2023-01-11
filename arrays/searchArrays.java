@@ -8,21 +8,24 @@ class LinearSearchExample2 {
    
     Scanner in = new Scanner(System.in);
 
-    System.out.println("Enter number of elements");  
-    n = in.nextInt();   
+    System.out.println("Enter number of elements");
+    n = in.nextInt();
+
     array = new int[n];  
    
     System.out.println("Enter those " + n + " elements");  
    
     for (c = 0; c < n; c++) {
 
-      array[c] = in.nextInt();  
+      array[c] = in.nextInt();
+
     }  
    
     System.out.println("Enter value to find");  
     search = in.nextInt();  
    
-    for (c = 0; c < n; c++)  {  
+    for (c = 0; c < n; c++)  {
+
       if (array[c] == search) {
 
          System.out.println(search + " is present at location " + (c + 1) + ".");  
@@ -30,7 +33,9 @@ class LinearSearchExample2 {
           
       }  
    }  
-   if (c == n)  /* Element to search isn't present */  
-      System.out.println(search + " isn't present in array.");  
+   if (c == n)
+     /* Element to search isn't present */  
+      System.out.println(search + " isn't present in array."); 
+      
   }  
 }  
