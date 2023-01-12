@@ -1,7 +1,7 @@
 // Linked List Definition
 public class LinkedListFromScratch {
     Node head;
-}
+
 
 public void add(int data) {
     // LL is empty
@@ -15,9 +15,8 @@ public void add(int data) {
 
     this.head = nodeToAdd;
     }
-
 }
-
+}
 
 public static void main( String[] args) {
     LinkedListFromScratch myList = new LinkedListFromScratch();
